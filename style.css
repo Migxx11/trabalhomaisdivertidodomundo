@@ -170,3 +170,29 @@ img {
     height: 250px;
     object-fit: cover;
 }
+
+.card h3 {
+    padding: 20px 20px 10px;
+    font-size: 22px;
+}
+
+.card p {
+    padding: 0 20px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.card a {
+    display: block;
+    text-align: center;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.card a:hover {
+    background-color: rgb(15, 27, 15);
+    transition: 0.5s;
+}
